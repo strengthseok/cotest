@@ -1,9 +1,6 @@
 package com.test.solutions;
 
-import java.lang.reflect.Array;
-import java.util.*;
-
-public class StockPrice2 {
+public class P1_StockPrice_2 {
     public int[] solution(int[] prices) {
         /***
          * 비교) 맨앞 값 < 나머지 값 중 맨앞값 보다 작은값,
@@ -25,7 +22,7 @@ public class StockPrice2 {
 
 
     public static void main(String[] args){
-        StockPrice2 T = new StockPrice2();
+        P1_StockPrice_2 T = new P1_StockPrice_2();
         System.out.println("return = " + T.solution(new int[]{1,2,3,2,3})  );
     }
 }

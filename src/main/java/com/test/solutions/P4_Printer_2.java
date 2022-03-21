@@ -3,9 +3,8 @@ package com.test.solutions;
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
-import java.util.Stack;
 
-public class printer2 {
+public class P4_Printer_2 {
     public int solution(int[] priorities, int location) {
         priorities = new int[]{2, 1, 3, 2};
         location = 2;  // 0 일때, return 3
