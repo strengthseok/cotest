@@ -3,7 +3,7 @@ package com.test.solutions;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class P3_BridgeWeight_2 {
+public class P3_Queue2_BridgeWeight {
     public int solution(int bridge_length, int weight, int[] truck_weights) {
         int answer = 0;
         int sum = 0;
@@ -39,7 +39,7 @@ public class P3_BridgeWeight_2 {
     }
 
     public static void main(String[] args){
-        P3_BridgeWeight_2 T = new P3_BridgeWeight_2();
+        P3_Queue2_BridgeWeight T = new P3_Queue2_BridgeWeight();
         System.out.println("return = " + T.solution(2, 10, new int[]{7, 4, 5, 6})  );
         System.out.println("return = " + T.solution(100, 100, new int[]{10})  );
         System.out.println("return = " + T.solution(100, 100, new int[]{10,10,10,10,10,10,10,10,10,10})  );

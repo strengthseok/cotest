@@ -2,7 +2,7 @@ package com.test.solutions;
 
 import java.util.*;
 
-class P2_FunctionUpgrade_2 {
+class P2_Queue2_FunctionUpgrade {
 
     public int[] solution(int[] progresses, int[] speeds) {
         int[] answer = {};
@@ -31,7 +31,7 @@ class P2_FunctionUpgrade_2 {
 
 
     public static void main(String[] args) {
-        P2_FunctionUpgrade_2 T = new P2_FunctionUpgrade_2();
+        P2_Queue2_FunctionUpgrade T = new P2_Queue2_FunctionUpgrade();
 
         System.out.println(T.solution(new int[]{93, 30, 55}, new int[]{1, 30, 5}));
     }

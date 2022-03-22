@@ -1,6 +1,6 @@
 package com.test.solutions;
 
-public class P1_StockPrice_2 {
+public class P1_Queue2_StockPrice {
     public int[] solution(int[] prices) {
         /***
          * 비교) 맨앞 값 < 나머지 값 중 맨앞값 보다 작은값,
@@ -22,7 +22,7 @@ public class P1_StockPrice_2 {
 
 
     public static void main(String[] args){
-        P1_StockPrice_2 T = new P1_StockPrice_2();
+        P1_Queue2_StockPrice T = new P1_Queue2_StockPrice();
         System.out.println("return = " + T.solution(new int[]{1,2,3,2,3})  );
     }
 }

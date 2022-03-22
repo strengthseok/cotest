@@ -2,7 +2,7 @@ package com.test.solutions;
 
 import java.util.PriorityQueue;
 
-public class P5_TheSpicy_2 {
+public class P5_Heap2_TheSpicy {
     /***
      * 섞은 음식의 스코빌 지수 = 가장 맵지 않은 음식의 스코빌 지수 + (두 번째로 맵지 않은 음식의 스코빌 지수 * 2)
      *
@@ -44,7 +44,7 @@ public class P5_TheSpicy_2 {
 
 
     public static void main(String[] args){
-        P5_TheSpicy_2 T = new P5_TheSpicy_2();
+        P5_Heap2_TheSpicy T = new P5_Heap2_TheSpicy();
         System.out.println("return = " + T.solution(new int[]{1, 2, 3, 9, 10, 12}, 7)  );
     }
 }

@@ -3,7 +3,7 @@ package com.test.solutions;
 import java.util.Arrays;
 import java.util.PriorityQueue;
 
-public class P6_DiskContoller_3 {
+public class P6_Heap3_DiskContoller {
 
     /***
      * 하드 디스크 문제
@@ -46,7 +46,7 @@ public class P6_DiskContoller_3 {
 
 
     public static void main(String[] args){
-        P6_DiskContoller_3 T = new P6_DiskContoller_3();
+        P6_Heap3_DiskContoller T = new P6_Heap3_DiskContoller();
         System.out.println("return = " + T.solution(      new int[][]{{0, 3}, {1, 9}, {2, 6}}    ));
     }
 }
